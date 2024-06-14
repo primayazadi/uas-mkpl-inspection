@@ -32,6 +32,20 @@ public class Lingkaran_1302210009 {
         System.out.println("Keliling objek lingkaran adalah " + keliling);
     }
 
+
+    public void setWarna_1302210009(String WarnaLingkaran) {
+        warna = WarnaLingkaran;
+    }
+
+    public double calculateKeliling() {
+        return (22.0 / 7.0) * 2.0 * jari;
+    }
+
+    public void printkeliling_1302210009() {
+        double keliling = calculateKeliling();
+        System.out.println("Keliling objek lingkaran adalah " + keliling);
+    }
+
     public double calculateLuas() {
         return (22.0 / 7.0) * jari * jari;
     }
